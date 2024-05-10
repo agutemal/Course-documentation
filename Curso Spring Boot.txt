@@ -1,0 +1,15 @@
+==============
+-beans: es un componente o clase que es manejado por el framework de spring
+-Controllers: procesa el reques y retorna un response. Es una clase que maneja metodos del reques, tambien se les conoce como metodos handler, la palabra haldler viene de manejar una peticion del
+-RestController
+usuario
+-Injeccion de dependencias:
+-puglin para chrome json formater recomendada
+-en las anotaciones no se pone punto y coma
+*Sepuede trabajar de 2 maneras con las solicitudes:
+
+@GetMapping("/details")
+@RequestMapping( path = "/api", method = RequestMethod.POST)
+
+-Model:
+
